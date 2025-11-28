@@ -1,0 +1,5 @@
+{
+  "name": "KiteAlgoGen",
+  "description": "AI-powered generator for Zerodha Kite Connect algorithmic trading Python scripts featuring backtesting logic and multi-strategy support.",
+  "requestFramePermissions": []
+}
