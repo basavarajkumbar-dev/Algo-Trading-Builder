@@ -1,0 +1,27 @@
+mode: backtest
+underlying_symbol: NIFTY 50
+timeframe: 5minute
+
+risk:
+  capital: 500000
+  max_risk_per_trade_pct: 0.02
+  risk_reward_ratio: 2.0
+  fixed_lots: 2
+  daily_loss_limit_pct: 0.05
+  max_trades_per_day: 5
+
+kite:
+  api_key: ""
+  api_secret: ""
+  access_token: ""
+
+strategies:
+  - long_call
+  - long_put
+  - bull_call_spread
+  - bear_put_spread
+  - iron_condor
+  - short_straddle
+  - short_strangle
+  - protective_put
+  - covered_call
